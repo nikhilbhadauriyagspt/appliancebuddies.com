@@ -1,12 +1,12 @@
 import ServiceLayout from '../../components/ServiceLayout';
-import { CupSoap } from 'lucide-react';
+import { Waves } from 'lucide-react';
 
 const DishwasherPage = () => (
   <ServiceLayout 
     title="Dishwasher Repair"
     desc="Is your dishwasher leaving food on plates or not draining? We can fix it."
     longDesc="A dishwasher is supposed to make your life easier, not harder. If your dishes are coming out dirty, the water isn't draining, or the machine is making loud noises, our experts are here to help. We provide quick and reliable dishwasher repairs so you can stop washing by hand."
-    icon={<CupSoap size={24} />}
+    icon={<Waves size={24} />}
     image="/dish.png"
     commonRepairs={[
       "Dishes are still dirty after wash",
